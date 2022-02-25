@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.user-wrapper {
+  border: 1px solid;
+  width: 40%;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+  padding: 10px;
+}
+
+.user-header {
+  margin-left: 15px;
+}
+
+.user-header #title {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 2px;
+}
+
+.user-header #subtitle {
+  font-size: 15px;
+  color: grey;
+  padding: 2px;
+}
+
+.user-namefield {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.user-longfield {
+  margin: 10px 0px 0px 10px;
+}
+
+.user-submitbutton {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
